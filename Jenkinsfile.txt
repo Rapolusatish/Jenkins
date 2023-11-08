@@ -3,10 +3,9 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Run the static analysis to the code and build' 
             }
-        }
-        stage('Compile') {
+        }        stage('Compile') {
             steps {
                 echo 'Compile the source code' 
             }
